@@ -1,14 +1,20 @@
-
 function Home() {
-    return <h1>German studies</h1>
-	   <h2>Words and Phrases that I learned:</h2>
-	   <h3>hallo -> hello (rálô)</h3>
-	   <h3>ich bin -> i am (iti bim)</h3>
-	   <h3>wie gehts dir? -> how are you? (vee gets dir)</h3>
-	   <h3>mir geths gut -> i am good (meer gets goot)</h3>
-	   <h3>tschuus -> bye (tchuu ss)</h3>
-	   <h3>wilkommen -> welcome (vilcomen)</h3>
-	   <h3>bis spater -> see you later (bish pater)</h3>
-	   <h3>danke -> thank you (danca)</h3>
+    return (
+        <div>
+            <h1>German studies</h1>
+            <p>Words and Phrases that I learned:</p>
+            <ul>
+                <li>hallo -&gt; hello (rálô)</li>
+                <li>ich bin -&gt; i am (iti bim)</li>
+                <li>wie gehts dir? -&gt; how are you? (vee gets dir)</li>
+                <li>mir gehts gut -&gt; i am good (meer gets goot)</li>
+                <li>schuus -&gt; bye (tchuu ss)</li>
+                <li>willkommen -&gt; welcome (vilcomen)</li>
+                <li>bis später -&gt; see you later (bish spater)</li>
+                <li>danke -&gt; thank you (danca)</li>
+            </ul>
+        </div>
+    );
 }
-    export default Home
+
+export default Home;
