@@ -15,8 +15,6 @@ function Home() {
             </ul>
         </div>
     );
-
-
 }
 
 export default Home;
