@@ -1,0 +1,12 @@
+# all of the directories of the root will have the configurations below
+
+root = true
+
+# the * informs that the configuraiton below is for all space caracter to indent texts
+
+[*]
+indent_style = space
+indent_size = 2
+
+  
+# 
