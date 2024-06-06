@@ -2,7 +2,6 @@ function Home() {
   return (
     <div>
       <h1>German studies</h1>
-      <p>Words and Phrases that I learned:</p>
       <ul>
         <li>hallo -&gt; hello (rálô)</li>
         <li>ich bin -&gt; i am (iti bim)</li>
