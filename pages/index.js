@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div>
-      <h1>coe</h1>
+      <h1>coe, qual o conselho?</h1>
     </div>
   );
 }
