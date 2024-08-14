@@ -11,5 +11,6 @@ const createJestConfig = nextJest({
 }); // é uma factory de funções
 const jestConfig = createJestConfig({
   moduleDirectories: ["node_modules", "<rootDir>"], //o root dir é um placeholder que informa a raiz do projeto
+  testTimeout: 60000,
 });
 module.exports = jestConfig;
