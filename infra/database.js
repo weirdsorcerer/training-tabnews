@@ -48,10 +48,15 @@ async function getNewClient() {
   return client;
 }
 
-export default {
-  //query: query,
-  //getNewClient: getNewClient
-  // comentei essas linhas pra mostrar que dá pra exportar assim também ao invés de ficar repetindo os nomes pois quando esse objeto for exportado tanto a propriedade quanto o valor vai ter o mesmo valor
+const database = {
   query,
   getNewClient,
 };
+
+export default database; //{
+//query: query,
+//getNewClient: getNewClient
+// comentei essas linhas pra mostrar que dá pra exportar assim também ao invés de ficar repetindo os nomes pois quando esse objeto for exportado tanto a propriedade quanto o valor vai ter o mesmo valor
+//  query,
+// getNewClient,
+//};
