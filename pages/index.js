@@ -6,8 +6,8 @@ function Home() {
   );
 }
 
-function teste() {
-  console.log("indentação errada");
-}
+//function teste() {
+// console.log("indentação errada");
+//}
 
 export default Home;

@@ -42,6 +42,7 @@ export default async function migrations(request, response) {
       }
 
       return response.status(200).json(migratedMigrations);
+      // eslint-disable-next-line no-unreachable
       response.status(200).json([]);
     }
   } catch (error) {
