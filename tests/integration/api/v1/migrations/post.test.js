@@ -1,9 +1,8 @@
-import database from "infra/database.js";
 import orchestrator from "../orchestrator.js";
 
 beforeAll(async () => {
   await orchestrator.waitForAllServices();
-  await database.query("drop schema public cascade; create schema public;"); // de um lado da query um schema é derrubado e no outro é criado e todas as tabelas ficam associadas a um schema e por padrão é usado o public e derrubar o schema principal em forma de cascata
+  await orchestrator.clearDatabase();
 });
 
 //beforeAll(cleanDatabase); // pra rodar a função de forma controlada o jest fornece essa função e antes de rodar a bateria de testes o jest vai rodar essa função
